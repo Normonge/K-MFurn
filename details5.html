@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-
+  scale=1.0">
+  <title>Products - K&M Furniture</title>
+
+  <link rel="stylesheet" type = "text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?
+  family=Roboto+Condensed:ital,wght@0,700;1,300&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+  <div class = "header2">
+  <div class="container3">
+    <div class="navbar">
+      <div class="logo">
+        <img src="img/logo.jpg" width="100px">
+    </div>
+        <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</li>
+              <li><a href="product.html">Products</li>
+              <li><a href="about.html">About</li>
+              <li><a href="about.html">Contact</li>
+            
+
+            </ul>
+          </nav>
+        <a href="Cart.php"><img src="img/shoppingcart.png" width="30px" height="30px"><a>
+      </div>
+    </div>
+  </div>
+
+<!---single product details ----------->
+
+<div class="small-conatainer single-product">
+  <div class="row">
+    <div col-2>
+    <img src="img/couch15.webp" width="80%">
+
+    </div>
+    <div col-2>
+      <p>Home / couches</p>
+      <h1> Lifestyle Solutions Harrington Sofa in Black </h1>
+      <h4>$299.87</h4>
+
+      <input type="number" value="1" onclick="return false">
+      <a href="" class="btn">Add To Cart</a>
+      <h3>Product Details</h3>
+
+      <p>	Black, LifeStyle Solutions, Contemporary </p>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="small-conatainer">
+  <div class="row">
+    <div class="col-4">
+      <li><a href="details1.html"><img src="img/couch1.webp"> </li>
+      <h4> Serta - Palisade 78" Sofa - Navy Blue</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p> $448.75</p>
+    </div>
+    <div class="col-4">
+      <li><a href="details2.html"><img src="img/couch3.webp"> </li>
+      <h4> Simmons - Davis Beige Sofa</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p> $299.00</p>
+    </div>
+    <div class="col-4">
+      <li><a href="details3.html"><img src="img/couch4.jpg"> </li>
+      <h4> 81'' Upholstered Sofa</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$383.99</p>
+    </div>
+  </div>
+</div>
+
+
+<!---footer----->
+
+<div class="footer">
+<div class="container">
+  <div class="row">
+    <div class="footer-col-1">
+      <h3>Download our App</h3>
+      <p>Download app for android and ios mobile phone.</p>
+    <div class="app-logo">
+      <img src="">
+      <img src="">
+    </div>
+    </div>
+    <div class="footer-col-3">
+      <h3>Useful Links</h3>
+      <ul>
+        <li>Coupons</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+      </ul>
+    </div>
+    <div class="footer-col-4">
+      <h3>Follow us</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright"> Copyright 2022 - COSC 450-001 Programming Language Principles </p>
+</hr>
+</div>
+</div>
+
+<!---Menu toogle------>
+
+<script>
+var MenuItems = document.getElementById('MenuItems');
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle(){
+  if(MenuItems.style.maxHeight = "0px")
+  {
+    MenuItems.style.maxHeight = "200px";
+  }
+
+  else{
+    MenuItems.style.maxHeight = "0px";
+  }
+}
+</script>
+
+</body>
+</html>
